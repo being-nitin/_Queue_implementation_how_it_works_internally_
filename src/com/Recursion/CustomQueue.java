@@ -20,15 +20,16 @@ import java.util.*;
     }
 
     // condition when the queue will be full.
-
     public boolean isFull(){
         return end == data.length-1;
     }
 
+    // condition when queue will be empty.
     public boolean isEmpty(){
         return end == -1;
     }
 
+    // condition when queue will be full.
     public boolean push(int item){
         if(isFull()){
             System.out.println("queue is full");
