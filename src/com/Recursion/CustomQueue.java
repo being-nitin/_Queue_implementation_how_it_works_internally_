@@ -1,10 +1,11 @@
 package com.Recursion;
 import java.util.*;
 
+
     /* we can implement it by two ways
       1. Array
       2. Linkedlist.
-     */
+    */
 
     public class CustomQueue {
     public int[] data;
@@ -29,8 +30,8 @@ import java.util.*;
         return end == -1;
     }
 
-    // condition when queue will be full.
     public boolean push(int item){
+        // condition when queue will be full.
         if(isFull()){
             System.out.println("queue is full");
             return false;
